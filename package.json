@@ -6,7 +6,6 @@
   "license": "MIT licence",
   "description": "Website to predict the traces of covid 19",
   "homepage": "/",
-  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/PriyanshuRj/CovidX"
@@ -25,6 +24,7 @@
     "@testing-library/jest-dom": "5.11.4",
     "@testing-library/react": "11.1.0",
     "@testing-library/user-event": "12.1.10",
+    "axios": "^0.26.1",
     "chroma-js": "2.1.2",
     "flatpickr": "4.6.9",
     "prop-types": "15.7.2",
