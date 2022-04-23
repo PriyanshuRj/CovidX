@@ -3,7 +3,7 @@ import { forwardRef, createContext, useContext } from "react";
 // prop-types is a library for typechecking of props
 import PropTypes from "prop-types";
 
-// Material Kit 2 React components
+// CovidX React components
 import MKBox from "components/MKBox";
 
 // Custom styles for MKPagination

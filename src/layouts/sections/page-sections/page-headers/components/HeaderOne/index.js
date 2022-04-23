@@ -1,6 +1,6 @@
 /*
 =========================================================
-* Material Kit 2 React - v2.0.0
+* CovidX React - v2.0.0
 =========================================================
 
 * Product Page: /
@@ -19,7 +19,7 @@ import Grid from "@mui/material/Grid";
 import Link from "@mui/material/Link";
 import Stack from "@mui/material/Stack";
 
-// Material Kit 2 React components
+// CovidX React components
 import MKBox from "components/MKBox";
 import MKButton from "components/MKButton";
 import MKTypography from "components/MKTypography";

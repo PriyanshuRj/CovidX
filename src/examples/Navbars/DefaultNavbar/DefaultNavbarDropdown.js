@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 import Collapse from "@mui/material/Collapse";
 import Icon from "@mui/material/Icon";
 
-// Material Kit 2 React components
+// CovidX React components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 

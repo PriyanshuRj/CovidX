@@ -1,12 +1,12 @@
 // @mui material components
 import Fade from "@mui/material/Fade";
 
-// Material Kit 2 React base styles
+// CovidX React base styles
 import colors from "assets/theme/base/colors";
 import typography from "assets/theme/base/typography";
 import borders from "assets/theme/base/borders";
 
-// Material Kit 2 React helper functions
+// CovidX React helper functions
 import pxToRem from "assets/theme/functions/pxToRem";
 
 const { black, light } = colors;

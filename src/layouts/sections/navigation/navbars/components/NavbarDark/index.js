@@ -1,8 +1,8 @@
 /* eslint-disable no-param-reassign */
-// Material Kit 2 React components
+// CovidX React components
 import MKBox from "components/MKBox";
 
-// Material Kit 2 React examples
+// CovidX React examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 
 // Routes

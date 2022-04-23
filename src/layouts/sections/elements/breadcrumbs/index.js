@@ -1,6 +1,6 @@
 /*
 =========================================================
-* Material Kit 2 React - v2.0.0
+* CovidX React - v2.0.0
 =========================================================
 
 * Product Page: /
@@ -17,10 +17,10 @@ Coded by www.creative-tim.com
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 
-// Material Kit 2 React components
+// CovidX React components
 import MKBox from "components/MKBox";
 
-// Material Kit 2 React examples
+// CovidX React examples
 import Breadcrumbs from "examples/Breadcrumbs";
 
 // Sections components

@@ -1,7 +1,7 @@
-// Material Kit 2 React base styles
+// CovidX React base styles
 import colors from "assets/theme/base/colors";
 
-// Material Kit 2 React helper functions
+// CovidX React helper functions
 import pxToRem from "assets/theme/functions/pxToRem";
 import boxShadow from "assets/theme/functions/boxShadow";
 

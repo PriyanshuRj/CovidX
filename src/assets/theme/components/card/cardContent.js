@@ -1,4 +1,4 @@
-// Material Kit 2 React Helper Functions
+// CovidX React Helper Functions
 import pxToRem from "assets/theme/functions/pxToRem";
 
 export default {

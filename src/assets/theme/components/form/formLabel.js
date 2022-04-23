@@ -1,4 +1,4 @@
-// Material Kit 2 React base styles
+// CovidX React base styles
 import colors from "assets/theme/base/colors";
 
 const { text } = colors;

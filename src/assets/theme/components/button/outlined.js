@@ -1,8 +1,8 @@
-// Material Kit 2 React Base Styles
+// CovidX React Base Styles
 import colors from "assets/theme/base/colors";
 import typography from "assets/theme/base/typography";
 
-// Material Kit 2 React Helper Functions
+// CovidX React Helper Functions
 import pxToRem from "assets/theme/functions/pxToRem";
 
 const { transparent, light, info, secondary } = colors;

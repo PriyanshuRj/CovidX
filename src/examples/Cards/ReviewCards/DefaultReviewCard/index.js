@@ -1,6 +1,6 @@
 /*
 =========================================================
-* Material Kit 2 React - v2.0.0
+* CovidX React - v2.0.0
 =========================================================
 
 * Product Page: /
@@ -19,7 +19,7 @@ import PropTypes from "prop-types";
 // @mui material components
 import Icon from "@mui/material/Icon";
 
-// Material Kit 2 React components
+// CovidX React components
 import MKBox from "components/MKBox";
 import MKAvatar from "components/MKAvatar";
 import MKTypography from "components/MKTypography";

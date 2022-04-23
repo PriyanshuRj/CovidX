@@ -1,24 +1,8 @@
-/* eslint-disable react/jsx-no-duplicate-props */
-/*
-=========================================================
-* Material Kit 2 React - v2.0.0
-=========================================================
-
-* Product Page: /
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
 // @mui material components
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 
-// Material Kit 2 React components
+// CovidX React components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 import MKInput from "components/MKInput";
@@ -32,7 +16,7 @@ function Newsletter() {
     <MKBox component="section" pt={6} my={6}>
       <Container>
         <Grid container alignItems="center">
-          <Grid item sx={12} md={6} sx={{ ml: { xs: 0, lg: 3 }, mb: { xs: 12, md: 0 } }}>
+          <Grid item sx={12} md={6} sm={{ ml: { xs: 0, lg: 3 }, mb: { xs: 12, md: 0 } }}>
             <MKTypography variant="h4">Be the first to see the news</MKTypography>
             <MKTypography variant="body2" color="text" mb={3}>
               Your company may not be in the software business, but eventually, a software company

@@ -1,8 +1,8 @@
-// Material Kit 2 React Base Styles
+// CovidX React Base Styles
 import typography from "assets/theme/base/typography";
 import borders from "assets/theme/base/borders";
 
-// Material Kit 2 React Helper Functions
+// CovidX React Helper Functions
 import pxToRem from "assets/theme/functions/pxToRem";
 
 const { fontWeightBold, size } = typography;

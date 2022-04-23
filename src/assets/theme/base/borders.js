@@ -1,7 +1,7 @@
-// Material Kit 2 React Base Styles
+// CovidX React Base Styles
 import colors from "assets/theme/base/colors";
 
-// Material Kit 2 React Helper Functions
+// CovidX React Helper Functions
 import pxToRem from "assets/theme/functions/pxToRem";
 
 const { grey } = colors;

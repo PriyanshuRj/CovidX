@@ -1,7 +1,7 @@
-// Material Kit 2 React base styles
+// CovidX React base styles
 import typography from "assets/theme/base/typography";
 
-// Material Kit 2 React helper functions
+// CovidX React helper functions
 import pxToRem from "assets/theme/functions/pxToRem";
 
 const { size } = typography;

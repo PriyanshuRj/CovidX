@@ -1,4 +1,4 @@
-// Material Kit 2 React base styles
+// CovidX React base styles
 import borders from "assets/theme/base/borders";
 import boxShadows from "assets/theme/base/boxShadows";
 

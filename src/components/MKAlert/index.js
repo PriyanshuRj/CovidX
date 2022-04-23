@@ -6,7 +6,7 @@ import PropTypes from "prop-types";
 // @mui material components
 import Fade from "@mui/material/Fade";
 
-// Material Kit 2 React components
+// CovidX React components
 import MKBox from "components/MKBox";
 
 // Custom styles for the MKAlert
