@@ -20,8 +20,8 @@ function Information() {
                 <MKBox mb={5}>
                   <DefaultInfoCard
                     icon="public"
-                    title="Fully integrated"
-                    description="We get insulted by others, lose trust for those We get back freezes"
+                    title="Hosted On Website"
+                    description="CovidX is a online availabe tool to test wether you are covid positive or not just by your voice"
                   />
                 </MKBox>
               </Grid>
