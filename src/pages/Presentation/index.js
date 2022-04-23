@@ -32,7 +32,7 @@ function Presentation() {
         routes={routes}
         action={{
           type: "external",
-          route: "/",
+          route: "/pages/uploadaudio",
           label: "Upload Audio",
           color: "info",
         }}

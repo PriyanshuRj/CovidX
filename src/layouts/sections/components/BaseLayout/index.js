@@ -1,17 +1,3 @@
-/*
-=========================================================
-* CovidX React - v2.0.0
-=========================================================
-
-* Product Page: /
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
 
 // prop-types is a library for typechecking of props
 import PropTypes from "prop-types";
@@ -27,7 +13,7 @@ import MKTypography from "components/MKTypography";
 // CovidX React examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 import CenteredFooter from "examples/Footers/CenteredFooter";
-import Breadcrumbs from "examples/Breadcrumbs";
+// import Breadcrumbs from "examples/Breadcrumbs";
 
 // Routes
 import routes from "routes";
@@ -40,8 +26,8 @@ function BaseLayout({ breadcrumb, title, children }) {
           routes={routes}
           action={{
             type: "external",
-            route: "/",
-            label: "upload auido",
+            route: "/pages/uploadaudio",
+            label: "upload audio",
             color: "info",
           }}
           transparent
@@ -51,7 +37,7 @@ function BaseLayout({ breadcrumb, title, children }) {
       <Container sx={{ mt: 6 }}>
         <Grid container item xs={12} flexDirection="column" justifyContent="center" mx="auto">
           <MKBox width={{ xs: "100%", md: "50%", lg: "25%" }} mb={3}>
-            <Breadcrumbs routes={breadcrumb} />
+            {/* <Breadcrumbs routes={breadcrumb} /> */}
           </MKBox>
           <MKTypography variant="h3" mb={1}>
             {title}

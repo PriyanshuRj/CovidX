@@ -8,7 +8,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import AboutUs from "layouts/pages/landing-pages/about-us";
 import ContactUs from "layouts/pages/landing-pages/contact-us";
 import SignIn from "layouts/pages/authentication/sign-in";
-
+// import Upload from "layouts/pages/UploadAudio";
 const routes = [
   {
     name: "about us",

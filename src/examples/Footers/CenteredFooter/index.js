@@ -6,18 +6,11 @@ import Link from "@mui/material/Link";
 import Grid from "@mui/material/Grid";
 import Stack from "@mui/material/Stack";
 
-// @mui icons
-import FacebookIcon from "@mui/icons-material/Facebook";
-import TwitterIcon from "@mui/icons-material/Twitter";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import PinterestIcon from "@mui/icons-material/Pinterest";
-import GitHubIcon from "@mui/icons-material/GitHub";
-
 // CovidX React components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
-function CenteredFooter({ company, links, socials, light }) {
+function CenteredFooter({ company, links, light }) {
   const { href, name } = company;
 
   const year = new Date().getFullYear();
@@ -35,19 +28,6 @@ function CenteredFooter({ company, links, socials, light }) {
     </MKTypography>
   ));
 
-  const renderSocials = socials.map((social) => (
-    <MKTypography
-      key={social.link}
-      component={Link}
-      href={social.link}
-      variant="body2"
-      color={light ? "white" : "secondary"}
-      fontWeight="regular"
-    >
-      {social.icon}
-    </MKTypography>
-  ));
-
   return (
     <MKBox component="footer" py={6}>
       <Grid container justifyContent="center">
@@ -60,11 +40,6 @@ function CenteredFooter({ company, links, socials, light }) {
             mb={3}
           >
             {renderLinks}
-          </Stack>
-        </Grid>
-        <Grid item xs={12} lg={8}>
-          <Stack display="flex" direction="row" justifyContent="center" spacing={3} mt={1} mb={3}>
-            {renderSocials}
           </Stack>
         </Grid>
         <Grid item xs={12} lg={8} sx={{ textAlign: "center" }}>
@@ -90,30 +65,12 @@ function CenteredFooter({ company, links, socials, light }) {
 
 // Setting default values for the props of CenteredFooter
 CenteredFooter.defaultProps = {
-  company: { href: "https://www.creative-tim.com/", name: "Creative Tim" },
+  company: { route: "/", name: "CovidX" },
   links: [
-    { href: "https://www.creative-tim.com/", name: "Company" },
-    { href: "https://www.creative-tim.com/presentation", name: "About Us" },
-    { href: "https://www.creative-tim.com/presentation", name: "Team" },
-    { href: "https://www.creative-tim.com/templates/react", name: "Products" },
-    { href: "https://www.creative-tim.com/blog", name: "Blog" },
-    { href: "https://www.creative-tim.com/license", name: "License" },
-  ],
-  socials: [
-    { icon: <FacebookIcon fontSize="small" />, link: "https://www.facebook.com/CreativeTim/" },
-    {
-      icon: <TwitterIcon fontSize="small" />,
-      link: "https://twitter.com/creativetim",
-    },
-    {
-      icon: <InstagramIcon fontSize="small" />,
-      link: "https://www.instagram.com/creativetimofficial/",
-    },
-    {
-      icon: <PinterestIcon fontSize="small" />,
-      link: "https://ro.pinterest.com/thecreativetim/",
-    },
-    { icon: <GitHubIcon fontSize="small" />, link: "https://github.com/creativetimofficial" },
+    { herf: "/", name: "Company" },
+    { herf: "/pages/landing-pages/about-us", name: "About Us" },
+    { herf: "/pages/landing-pages/contact-us", name: "Contact Us" },
+    { href: "https://github.com/PriyanshuRj/CovidX/blob/main/LICENSE", name: "License" },
   ],
   light: false,
 };
@@ -122,7 +79,6 @@ CenteredFooter.defaultProps = {
 CenteredFooter.propTypes = {
   company: PropTypes.objectOf(PropTypes.string),
   links: PropTypes.arrayOf(PropTypes.object),
-  socials: PropTypes.arrayOf(PropTypes.object),
   light: PropTypes.bool,
 };
 

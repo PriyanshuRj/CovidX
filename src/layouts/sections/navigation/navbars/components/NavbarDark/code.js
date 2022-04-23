@@ -14,8 +14,8 @@ function NavbarDark() {
         routes={routes}
         action={{
           type: "external",
-          route: "/",
-          label: "upload auido",
+          route: "/pages/uploadaudio",
+          label: "upload audio",
           color: "info",
         }}
         transparent

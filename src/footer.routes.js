@@ -18,19 +18,19 @@ export default {
   menus: [
     {
       name: "About Us",
-      items: [{ name: "about us", href: "/about" }],
+      items: [{ name: "about us", route: "/pages/landing-pages/about-us" }],
     },
     {
       name: "Upload Audio",
-      items: [{ name: "Upload Audio", href: "/" }],
+      items: [{ name: "Upload Audio", route: "/" }],
     },
     {
       name: "help & support",
-      items: [{ name: "contact us", href: "https://www.creative-tim.com/contact-us" }],
+      items: [{ name: "contact us", route: "/pages/landing-pages/contact-us" }],
     },
     {
       name: "legal",
-      items: [{ name: "terms & conditions", href: "https://www.creative-tim.com/terms" }],
+      items: [{ name: "Licence", href: "https://github.com/PriyanshuRj/CovidX/blob/main/LICENSE" }],
     },
   ],
   copyright: (
