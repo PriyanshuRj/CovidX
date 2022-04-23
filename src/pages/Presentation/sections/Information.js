@@ -47,12 +47,12 @@ function Information() {
                     Material Kit
                   </>
                 }
-                description="All the MUI components that you need in a development have been re-design with the new look."
+                description="Help us cure this deadly virus by geeting yourself checked."
               />
               <RotatingCardBack
                 image={bgBack}
                 title="Discover More"
-                description="You will save a lot of time going from prototyping to full-functional code because all elements are implemented."
+                description="You have a lot more to explore then just certains checkups."
                 action={{
                   type: "internal",
                   route: "/sections/page-sections/page-headers",
